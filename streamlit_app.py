@@ -1,5 +1,6 @@
 import streamlit as st
+import pandas as pd
 
 st.title('YouTube reccomendation classification model')
 
-st.write('Hello world!')
+data = pd.read_csv('"C:\Users\keerthesh\OneDrive\Desktop\wf.csv"')
